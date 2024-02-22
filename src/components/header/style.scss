@@ -11,7 +11,7 @@
     transition: all ease 0.5s;
     z-index: 2;
     &.top {
-        background: rgba(0, 0, 0, 0.25);
+        background: rgb(91, 10, 10);
         backdrop-filter: blur(3.5px);
         -webkit-backdrop-filter: blur(3.5px);
     }
@@ -29,8 +29,16 @@
     }
     .logo {
         cursor: pointer;
-        img {
-            height: 50px;
+        //img {
+          //  height: 50px;
+        //}
+        color:white;
+        font-weight:500;
+        font-size:25px;
+        margin-top: 15px;
+        align-items: center;
+        &:hover {
+            color: rgb(127, 113, 113);
         }
     }
     .menuItems {
@@ -56,8 +64,9 @@
             }
             cursor: pointer;
             &:hover {
-                color: var(--pink);
+                color: rgb(127, 113, 113);
             }
+
         }
     }
 
@@ -85,7 +94,7 @@
             flex-direction: column;
             width: 100%;
             padding: 20px 0;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(67, 31, 31, 0.1);
             animation: mobileMenu 0.3s ease forwards;
             .menuItem {
                 font-size: 20px;
