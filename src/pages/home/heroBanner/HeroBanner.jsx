@@ -32,8 +32,8 @@ const HeroBanner = () => {
       <ContentWrapper>
       
        <div className="heroBannerContent">
-        <span className="title">Welcome.</span>
-        <span className="subTitle">Millions of movies,Tv Shoes and People to discover.Explore Now.</span>
+        <span className="title">Welcome to Chillax.</span>
+        <span className="subTitle"> Laughter. Tears. Thrills. Find it all on Chillax</span>
         <div className="searchInput">
             <input  type="text"
             placeholder="Search for a movie or tv Shows."
